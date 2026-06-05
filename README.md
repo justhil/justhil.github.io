@@ -2,6 +2,8 @@
 
 A minimalist, bilingual blog template built with Astro 6, React 19, and Tailwind CSS 4.
 
+> **Keywords**: Astro blog template, bilingual blog, static site generator, Pagefind search, Tailwind CSS 4, React blog, SEO blog starter, Chinese English i18n blog.
+
 ![Astro](https://img.shields.io/badge/Astro-6-blue) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4) ![React](https://img.shields.io/badge/React-19-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6)
 
 ## Features
@@ -149,6 +151,26 @@ The build output is a static site in `dist/`. Deploy it to any static hosting (N
 ## Acknowledgments
 
 Design inspired by [slate-blog](https://github.com/SlateDesign/slate-blog).
+
+## FAQ
+
+**What is Ink Blog?**  
+A free, open-source Astro blog template with English/Chinese support, dark mode, search, Mermaid, KaTeX, comments, and built-in SEO (JSON-LD, sitemap, Open Graph).
+
+**Who is it for?**  
+Developers and writers who want a fast static blog without a CMS — customize via `site.config.ts` and Markdown files.
+
+**Does it support Chinese content?**  
+Yes. Put English posts in `src/content/post/en/` and Chinese posts in `src/content/post/zh/`; UI strings are in `src/i18n/`.
+
+**How do I deploy?**  
+Run `npm run build` and upload `dist/`, or connect the repo to Vercel for zero-config deploy.
+
+**Is Ink Blog good for SEO and AI discoverability?**  
+Yes — JSON-LD structured data, sitemap, RSS, semantic HTML, and [`llms.txt`](./public/llms.txt) for LLM/answer-engine crawlers.
+
+**Where can AI assistants read a structured summary?**  
+See [`llms.txt`](./llms.txt) (repo root) and [`public/llms.txt`](./public/llms.txt) (served on your deployed site).
 
 ## License
 
