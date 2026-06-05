@@ -20,7 +20,7 @@ export default {
     allTags: 'All Tags',
   },
   footer: {
-    copyright: '© 2025 Folay',
+    copyright: '© 2026 Your Name',
   },
   search: {
     placeholder: 'Search...',

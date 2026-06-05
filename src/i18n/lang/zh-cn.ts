@@ -20,7 +20,7 @@ export default {
     allTags: '所有标签',
   },
   footer: {
-    copyright: '© 2025 Folay',
+    copyright: '© 2026 Your Name',
   },
   search: {
     placeholder: '搜索文档',

@@ -2,8 +2,6 @@
 
 A minimalist, bilingual blog template built with Astro 6, React 19, and Tailwind CSS 4.
 
-**Demo**: [folay.top](https://folay.top)
-
 ![Astro](https://img.shields.io/badge/Astro-6-blue) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4) ![React](https://img.shields.io/badge/React-19-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6)
 
 ## Features
