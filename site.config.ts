@@ -26,16 +26,15 @@ export default defineSiteConfig({
   //   feedId: 'your-feed-id',
   //   userId: 'your-user-id',
   // },
-  // Uncomment to enable Giscus comments (https://giscus.app)
-  // giscus: {
-  //   repo: 'your-username/your-repo',
-  //   repoId: '',
-  //   category: 'Announcements',
-  //   categoryId: '',
-  //   mapping: 'pathname',
-  //   strict: true,
-  //   reactionsEnabled: true,
-  //   inputPosition: 'bottom',
-  //   lang: 'en',
-  // },
+  giscus: {
+    repo: 'justhil/justhil.github.io',
+    repoId: 'R_kgDOM_dg5Q',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOM_dg5c4DDXsz',
+    mapping: 'pathname',
+    strict: false,
+    reactionsEnabled: true,
+    inputPosition: 'bottom',
+    lang: 'zh-CN',
+  },
 });
