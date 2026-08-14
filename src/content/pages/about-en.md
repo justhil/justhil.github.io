@@ -3,11 +3,11 @@ title: "About"
 description: "About this blog"
 ---
 
-Hi, I'm **Your Name** — a developer who loves building things for the web.
+Hi, I'm **justhil** — a developer who tinkers with AI tools, reverse engineering, and fun utilities.
 
-This blog is where I share my thoughts on technology, design, and life.
+This blog is where I document my notes and experiments with AI tools, local deployment, and various tech rabbit holes.
 
 ## Contact
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: hello@example.com
+- GitHub: [justhil](https://github.com/justhil)
+- Email: [mitu233333@gmail.com](mailto:mitu233333@gmail.com)

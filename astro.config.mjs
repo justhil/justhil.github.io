@@ -1,17 +1,14 @@
 import { defineConfig, fontProviders } from 'astro/config';
-import { unified } from '@astrojs/markdown-remark';
+import { satteri } from '@astrojs/markdown-satteri';
 import react from '@astrojs/react';
 import svgr from 'vite-plugin-svgr';
 import tailwindcss from "@tailwindcss/vite";
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import remarkGemoji from 'remark-gemoji';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
 import codeImport from 'remark-code-import';
 import remarkBlockContainers from 'remark-block-containers';
 import astroExpressiveCode from 'astro-expressive-code';
-import rehypeFigure from 'rehype-figure';
 
 import { remarkModifiedTime } from './plugins/remark-modified-time.js';
 import { remarkReadingTime } from './plugins/remark-reading-time.js';
@@ -21,7 +18,6 @@ import siteConfig from './site.config.js';
 function buildRemarkPlugins() {
   const plugins = [
     remarkGemoji,
-    remarkMath,
     codeImport,
     remarkBlockContainers,
     remarkMermaid,
@@ -86,9 +82,9 @@ export default defineConfig({
     },
   ],
   markdown: {
-    processor: unified({
-      remarkPlugins: buildRemarkPlugins(),
-      rehypePlugins: [rehypeKatex, rehypeFigure],
+    processor: satteri({
+      mdastPlugins: buildRemarkPlugins(),
+      hastPlugins: [],
     }),
   },
   vite: {

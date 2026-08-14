@@ -51,6 +51,7 @@
     "remark-code-import": "^1.2.0",
     "remark-gemoji": "^8.0.0",
     "remark-math": "^6.0.0",
+    "satteri": "^0.9.5",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3",

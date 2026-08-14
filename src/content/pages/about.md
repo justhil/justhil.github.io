@@ -3,11 +3,11 @@ title: "关于"
 description: "关于这个博客"
 ---
 
-你好，我是 **Your Name** —— 一个热爱构建 Web 产品的开发者。
+你好，我是 **justhil** —— 一个折腾 AI、逆向和有趣工具的开发者。
 
-这个博客是我分享技术、设计和生活想法的地方。
+这个博客记录我在 AI 工具、本地部署、逆向渠道和各种折腾过程中的笔记和想法。
 
 ## 联系方式
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: hello@example.com
+- GitHub: [justhil](https://github.com/justhil)
+- Email: [mitu233333@gmail.com](mailto:mitu233333@gmail.com)
